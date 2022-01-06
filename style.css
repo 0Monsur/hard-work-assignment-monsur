@@ -1,0 +1,218 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+    }
+    
+    /* banner section starts */
+    #banner-section{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #orange-color{
+        color:orange;
+    }
+    
+    #heading{
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 15px;
+        font-size: 60px;
+        border-left: 6px solid #FF5959;
+    }
+    
+    #heading-paragraph{
+        font-weight: 100 !important;
+        font-size: 18px;
+    }
+    
+    #content-container{
+        margin-top: 100px;
+    }
+    
+    .btn{
+        background-color: #FF5959;
+        color: white;
+        border: none;
+        padding: 12px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 23px;
+    }
+    
+    #image-container img{
+        width: 426px;
+        margin-top: -80px;
+        /* height: 426px; */
+    }
+    
+    /* banner section ends */
+    
+    
+    /* mission section starts */
+    
+    #mission-section{
+        margin-top: 100px;
+    }
+    
+    #mission-container{
+        display: flex;
+        justify-content: center;
+        margin: 0 300px;
+    }
+    
+    #mission-headline{
+        text-align: center;
+        font-size: 48px;
+    }
+    
+    #mission-headline span{
+        color: orange;
+    }
+    
+    #mission{
+        border-radius: 26px;
+        background-color: rgba(79, 157, 166, 0.1);
+        padding: 20px;
+        margin-right: 40px;
+    }
+    
+    .mission-img{
+        width: 126px;
+    }
+    
+    .mission-h3{
+        font-size: 24px;
+    }
+    
+    .mission-p{
+        font-size: 16px;
+    }
+    
+    #vision{
+        /* border: 1px solid green; */
+        border-radius: 26px;
+        background-color: rgba(255, 89, 89, 0.1);
+        padding: 20px;
+        margin-right: 40px;
+    
+    }
+    
+    #goals{
+        border-radius: 26px;
+        background-color: #FFF4D6;
+        padding: 20px;
+    }
+    
+    /* mission section ends */
+    
+    
+    /* develop section starts */
+    
+    #develop-section{
+        margin-top: 100px;
+        display: flex;
+        margin-left: 300px;
+        /* justify-content: center; */
+    }
+    
+    #develop-image img{
+        width: 400px;
+    }
+    
+    #develop-content{
+        margin-left: 60px;
+    }
+    
+    #develop-content h2{
+        font-size: 36px;
+    }
+    
+    #develop-content p{
+        font-size: 18px;
+    }
+    /* develop section ends */
+    
+    /* community section starts */
+    
+    #community-section{
+        margin-top: 100px;
+        display: flex;
+        margin-left: 300px;
+        /* justify-content: center; */
+    }
+    
+    #community-image img{
+        width: 400px;
+    }
+    
+    #community-content{
+        margin-right: 60px;
+    }
+    
+    #community-content h2{
+        font-size: 36px;
+    }
+    
+    #community-content p{
+        font-size: 18px;
+    }
+    /* community section ends */
+    
+    /* works  starts */
+    
+    #works-section{
+        margin-bottom: 40px;
+    }
+    
+    #works-section h2{
+    text-align: center;
+    font-size: 48px;
+    }
+    
+    .works-container{
+        display: flex;
+    }
+    
+    .my-works{
+        background-color: rgb(236, 235, 235);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .my-works img{
+        width: 100px;
+        border-radius: 50%;
+    }
+    
+    .my-works h4{
+        font-size: 18px;
+    }
+    
+    .ui, .web{
+        margin-right: 20px;
+    }
+    
+    /* works  ends */
+    
+    /* footer */
+    #footer{
+        background-color: #0B0D17;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    #footer h2{
+        color: white;
+        font-size: 36px;
+    }
+    #footer h2 span{
+        color: #FF5959;
+    }
+    
+    #footer p{
+        color: white;
+    }
